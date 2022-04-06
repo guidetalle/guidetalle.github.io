@@ -424,17 +424,11 @@ Variables
     }
   
     .hero-info h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
+      margin-top:10px;
     }
     .hero-info p {
       font-size: 1.25rem;
-    }
-    .hero-images {
-      display: block;
-      justify-self: center;
-    }
-    .phone-img {
-      width: 12rem;
     }
   }
   
