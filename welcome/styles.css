@@ -414,7 +414,7 @@ Variables
   }
   
   /* hero media query */
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 300px) {
     .hero::before {
       background-size: contain;
       height: 100%;
