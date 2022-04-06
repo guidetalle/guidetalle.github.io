@@ -17,7 +17,7 @@ const projects = [
 { id :'capitalQuiz',
 img:'/welcome/images/capitalQuiz.png',
 title:'Capital Quiz (FR)',
-desc : 'Testez vos connaissances sur la géographie du Canada à partir de ce quiz interactif sur les capitales des provinces et territoires',
+desc : 'Test vos connaissances sur la géographie du Canada à partir de ce quiz interactif sur les capitales des provinces et territoires',
 link:'/CapitalQuiz/welcome.html'}];
 
 const catalog = document.querySelector(".catalog-container");
