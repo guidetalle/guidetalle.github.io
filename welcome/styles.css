@@ -208,11 +208,10 @@ Variables
   .project{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    background-color: black;
   }
 
   @media screen and (min-width: 1000px) {
-    .catalog{
+    .project{
       display:grid;
       grid-template-columns: 1fr;
     }
