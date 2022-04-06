@@ -3,7 +3,7 @@ const sublinks = [
       page: 'Resume',
       links: [
         { label: 'Interactive Resume', icon: 'fas fa-address-card', url: 'resumeEN.html' },
-        { label: 'Resume (PDF)', icon: 'fas fa-address-card', url: 'resume.pdf' },
+        { label: 'Resume (PDF)', icon: 'fas fa-address-card', url: 'https://guidetalle.github.io/CV_EN.pdf' },
         { label: 'UDEMY Certificate', icon: 'fas fa-graduation-cap', url: 'https://www.udemy.com/certificate/UC-552f2d06-6b8f-4d29-8669-b531ec459154' },
       ],
     },
