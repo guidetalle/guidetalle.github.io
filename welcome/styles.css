@@ -210,6 +210,13 @@ Variables
     grid-template-columns: 1fr 1fr;
   }
 
+  @media screen and (min-width: 1000px) {
+    .catalog{
+      display:grid;
+      grid-template-columns: 1fr;
+    }
+  }
+
   .proj-img{
     width:400px;
     height:200px;
