@@ -236,7 +236,7 @@ Variables
   ==========================
   */
 
-  @media screen and (min-width: 400px) and (max-width:800px){
+  @media screen and (min-width: 300px) and (max-width:800px){
     .project{
       display:grid;
       grid-template-columns: 1fr;
