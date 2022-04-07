@@ -14,18 +14,16 @@
 body{
     padding:0;
     margin:0;
+    @include background;
 }
 
 nav{
     @include central;
     background: rgba(0, 0, 0, 0.4);
     font-family:arial;
-    margin-bottom:200px;
+    margin-bottom:15%;
 }
 
-.container{
-    @include background;
-}
 
 .form-container{
     @include central;
