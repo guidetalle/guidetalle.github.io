@@ -9,7 +9,7 @@ sideBar();
 
 const projects = [
     {   id:'countriesApp',
-    img:'/welcome/images/countriesApp.jpg',
+    img:'/welcome/images/countriesApp.png',
     title:'Countries App (EN)',
     desc:"This application uses the REST API. CSS coded with SASS. It shows the user various facts about a chosen country.",
     link:'/CountriesApp/index.html' 
