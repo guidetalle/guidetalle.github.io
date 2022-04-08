@@ -8,6 +8,12 @@ subMenu();
 sideBar();
 
 const projects = [
+    {   id:'CountriesApp',
+    img:'/welcome/images/countriesApp.png',
+    title:'Countries App (EN)',
+    desc:"Cette application utilise l'API RES. Elle affiche des informations variées sur un pays choisi. Le CSS est codé en utilisant SASS.",
+    link:'/CountriespeApp/index.html' 
+},
 {   id:'recipeApp',
     img:'/welcome/images/recipeApp.jpg',
     title:'Recipe App (EN)',

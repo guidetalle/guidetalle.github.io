@@ -11,6 +11,7 @@ const sublinks = [
       page: 'Portfolio',
       links: [
         { label : 'Projects overview', icon : 'fas fa-book', url : 'https://guidetalle.github.io/welcome/EN/portfolioEN.html'},
+        { label: 'Countries app', icon: 'fas fa-book', url: 'https://guidetalle.github.io/CountriesApp/index.html' },
         { label: 'Recipe catalog', icon: 'fas fa-book', url: 'https://guidetalle.github.io/RecipeApp/index.html' },
         { label: 'Quiz : geography of Canada', icon: 'fas fa-book', url: 'https://guidetalle.github.io/CapitalQuiz/welcome.html' },
       ],

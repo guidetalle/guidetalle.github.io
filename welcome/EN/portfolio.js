@@ -8,6 +8,12 @@ subMenu();
 sideBar();
 
 const projects = [
+    {   id:'countriesApp',
+    img:'/welcome/images/countriesApp.jpg',
+    title:'Countries App (EN)',
+    desc:"This application uses the REST API. CSS coded with SASS. It shows the user various facts about a chosen country.",
+    link:'/CountriesApp/index.html' 
+},
 {   id:'recipeApp',
     img:'/welcome/images/recipeApp.jpg',
     title:'Recipe App (EN)',
