@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-image: url("world.avif");
+  background-image: url("world.jpg");
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,6 +20,7 @@ nav {
   background: rgba(0, 0, 0, 0.4);
   font-family: arial;
   margin-bottom: 15%;
+  color: white;
 }
 
 .form-container {
@@ -88,5 +89,83 @@ footer {
   height: 2.5rem;
   font-family: arial;
   color: beige;
+}
+
+/*COUNTRY DETAILS*/
+.country-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+article {
+  border: 2px solid black;
+  padding: 5%;
+  border-radius: 5%;
+  background-color: white;
+  width: 50%;
+}
+
+.img-container {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  height: 30%;
+}
+
+.details-img {
+  width: 300px;
+  height: 200px;
+  padding: 2%;
+}
+
+@media screen and (max-width: 1100px) {
+  .details-img {
+    width: 150px;
+    height: 100px;
+    padding: 2%;
+  }
+}
+
+ul {
+  margin-top: 5px;
+  height: 50%;
+  background-color: beige;
+  padding: 2%;
+  border: 1px solid black;
+  border-radius: 3%;
+}
+
+ul li {
+  font-family: arial;
+  font-size: 26px;
+  list-style-type: none;
+}
+
+.details-h2 {
+  font-family: arial;
+  font-size: 36px;
+  text-align: center;
+  height: 20%;
+  background-color: #ff6200;
+}
+
+.article-img {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -5,7 +5,7 @@
 }
 
 @mixin background{
-    background-image: url("world.avif");
+    background-image: url("world.jpg");
     height:100vh;
     background-size:cover;
     background-repeat:no-repeat;
@@ -22,6 +22,7 @@ nav{
     background: rgba(0, 0, 0, 0.4);
     font-family:arial;
     margin-bottom:15%;
+    color:white;
 }
 
 
@@ -67,4 +68,72 @@ footer{
     height: 2.5rem; 
     font-family: arial;
     color:beige;
+}
+
+/*COUNTRY DETAILS*/
+
+.country-details{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    width:100%;
+    align-items: center;
+}
+
+article{
+    border:2px solid black;
+    padding:5%;
+    border-radius: 5%;
+    background-color: white;
+    width:50%;
+}
+
+.img-container{
+    display:grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    height:30%;
+}
+
+.details-img{
+    width:300px;
+    height:200px;
+    padding:2%;
+}
+
+@media screen and (max-width: 1100px){
+    .details-img{
+        width:150px;
+        height:100px;
+        padding:2%;
+    }
+};
+    
+
+
+ul{
+    margin-top:5px;
+    height:50%;
+    background-color: beige;
+    padding:2%;
+    border: 1px solid black;
+    border-radius:3%;
+}
+
+ul li{
+    font-family: arial;
+    font-size:26px;
+    list-style-type: none;
+}
+.details-h2{
+    font-family: arial;
+    font-size:36px;
+    text-align:center;
+    height:20%;
+    background-color:rgb(255, 98, 0) ;
+}
+
+.article-img{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
