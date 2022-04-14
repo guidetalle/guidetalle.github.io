@@ -9,7 +9,7 @@ sideBar();
 
 //CV
 const data = [
-    'guillaume.detalle@gmail.com', 'Belgian, born OCT 25, 1989 in Liège (Belgium)', '2284 Rue Ontario E, MONTREAL, QC, H2K1V8', '437-989-2510'
+    'guillaume.detalle@gmail.com', 'Belgian, born OCT 25, 1989 in Liège (Belgium)', '397, Front Street W, M5V3S1, Toronto, Ontario', '437-989-2510'
 ];
 
 const btnContainer = document.querySelector(".values-list");
